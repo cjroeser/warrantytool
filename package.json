@@ -2,14 +2,14 @@
     "name": "warrantytool",
     "version": "1.0.2",
     "description": "Command line tool to lookup Dell / HP warranty information",
-    "homepage": "https://github.com/cdgco/warrantytool",
+    "homepage": "https://github.com/cjroeser/warrantytool",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dell-warranty": "node dell-warranty.js",
         "hp-warranty": "node hp-warranty.js"
     },
-    "author": "cdgco",
+    "author": "cjroeser",
     "license": "MIT",
     "dependencies": {
         "console-table-printer": "^2.11.0",
@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cdgco/warrantytool.git"
+        "url": "git+https://github.com/cjroeser/warrantytool.git"
     },
     "keywords": [
         "warranty",
@@ -27,7 +27,7 @@
         "dell warranty"
     ],
     "bugs": {
-        "url": "https://github.com/cdgco/warrantytool/issues"
+        "url": "https://github.com/cjroeser/warrantytool/issues"
     },
     "bin": {
         "dell-warranty": "dell-warranty.js",
